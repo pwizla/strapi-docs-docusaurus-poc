@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstrapi_docs_docusaurus_poc=self.webpackChunkstrapi_docs_docusaurus_poc||[]).push([[9624],{5745:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
