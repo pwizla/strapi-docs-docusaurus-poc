@@ -1,14 +1,14 @@
 {
   "unversionedId": "hello",
   "id": "hello",
-  "title": "Hello",
-  "description": "This is my first Docusaurus document!",
+  "title": "Welcome to the Strapi v4 documentation!",
+  "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
   "source": "@site/docs/hello.md",
   "sourceDirName": ".",
   "slug": "/hello",
   "permalink": "/docs/hello",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hello.md",
+  "editUrl": "https://github.com/pwizla/documentation/docs/hello.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,13 +17,5 @@
     "id": "hello",
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
-  },
-  "next": {
-    "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
-  }
+  "sidebar": "tutorialSidebar"
 }

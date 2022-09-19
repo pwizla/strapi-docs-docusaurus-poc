@@ -6,7 +6,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/docs/next/intro",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],
@@ -14,10 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Hi!",
-    "permalink": "/docs/hello"
   }
 }

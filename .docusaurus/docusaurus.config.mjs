@@ -4,15 +4,15 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Strapi Documentation",
+  "tagline": "Design APIs fast, manage content easily.",
+  "url": "https://strapi-docs-docusaurus-poc.vercel.app/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "favicon": "https://strapi.io/assets/favicon-32x32.png",
+  "organizationName": "pwizla",
+  "projectName": "strapi-docs-docusaurus-poc",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/piwi/code/playground/poc/strapi-docs-docusaurus-poc/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/pwizla/documentation"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://strapi.io/blog/"
         },
         "theme": {
           "customCss": "/Users/piwi/code/playground/poc/strapi-docs-docusaurus-poc/src/css/custom.css"
@@ -41,17 +41,16 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Strapi Documentation Logo",
+        "src": "img/logo.png"
       },
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "hello",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Documentation"
         },
         {
           "to": "/blog",
@@ -59,7 +58,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/strapi/documentation",
           "label": "GitHub",
           "position": "right"
         }
@@ -73,8 +72,12 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "User Guide",
+              "to": "/docs/user-docs/intro"
+            },
+            {
+              "label": "Dev Docs",
+              "to": "/docs/dev-docs/intro"
             }
           ]
         },
@@ -83,15 +86,15 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/questions/tagged/strapi"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.strapi.io/"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/strapijs"
             }
           ]
         },
@@ -104,7 +107,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/strapi/documentation"
             }
           ]
         }

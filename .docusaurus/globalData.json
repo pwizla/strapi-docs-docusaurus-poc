@@ -8,58 +8,28 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "hello",
           "docs": [
+            {
+              "id": "dev-docs/intro",
+              "path": "/docs/dev-docs/intro"
+            },
             {
               "id": "hello",
               "path": "/docs/hello",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site"
+              "id": "user-docs/intro",
+              "path": "/docs/user-docs/intro"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/hello",
+                "label": "hello"
               }
             }
           }

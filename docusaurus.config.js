@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Strapi Documentation',
+  tagline: 'Design APIs fast, manage content easily.',
+  url: 'https://strapi-docs-docusaurus-poc.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://strapi.io/assets/favicon-32x32.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'pwizla', // Usually your GitHub org/user name.
+  projectName: 'strapi-docs-docusaurus-poc', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pwizla/documentation',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://strapi.io/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,21 +57,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Strapi Documentation Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'hello',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docsVersionDropdown' // temporarily disabled, enable again when adding versioning, see https://tutorial.docusaurus.io/docs/tutorial-extras/manage-docs-versions
+          // },
+          // {
+          //   type: 'localeDropdown' // disabled as I couldn't make i18n work: navbar shows up but files seem 404s 🤷 
+          // }
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/strapi/documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,8 +89,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'User Guide',
+                to: '/docs/user-docs/intro',
+              },
+              {
+                label: 'Dev Docs',
+                to: '/docs/dev-docs/intro',
               },
             ],
           },
@@ -94,15 +103,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/strapi',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.strapi.io/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/strapijs',
               },
             ],
           },
@@ -115,7 +124,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/strapi/documentation',
               },
             ],
           },
