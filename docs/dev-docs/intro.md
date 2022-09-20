@@ -1,1 +1,5 @@
-Dev Docs homepage
+---
+id: 'dev-docs-intro'
+---
+
+# Dev Docs homepage
