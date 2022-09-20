@@ -48,7 +48,7 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "hello",
+          "docId": "welcome",
           "position": "left",
           "label": "Documentation"
         },

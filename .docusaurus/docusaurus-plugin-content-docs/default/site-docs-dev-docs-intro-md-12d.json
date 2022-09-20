@@ -1,15 +1,17 @@
 {
-  "unversionedId": "dev-docs/intro",
-  "id": "dev-docs/intro",
-  "title": "intro",
-  "description": "Dev Docs homepage",
+  "unversionedId": "dev-docs/dev-docs-intro",
+  "id": "dev-docs/dev-docs-intro",
+  "title": "Dev Docs homepage",
+  "description": "",
   "source": "@site/docs/dev-docs/intro.md",
   "sourceDirName": "dev-docs",
-  "slug": "/dev-docs/intro",
-  "permalink": "/docs/dev-docs/intro",
+  "slug": "/dev-docs/dev-docs-intro",
+  "permalink": "/docs/dev-docs/dev-docs-intro",
   "draft": false,
   "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {}
+  "frontMatter": {
+    "id": "dev-docs-intro"
+  }
 }

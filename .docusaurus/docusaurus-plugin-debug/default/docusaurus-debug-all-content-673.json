@@ -20,40 +20,41 @@
           "contentPathLocalized": "/Users/piwi/code/playground/poc/strapi-docs-docusaurus-poc/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "dev-docs/intro",
-              "id": "dev-docs/intro",
-              "title": "intro",
-              "description": "Dev Docs homepage",
+              "unversionedId": "dev-docs/controllers",
+              "id": "dev-docs/controllers",
+              "title": "Controllers",
+              "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+              "source": "@site/docs/dev-docs/controllers.md",
+              "sourceDirName": "dev-docs",
+              "slug": "/dev-docs/controllers",
+              "permalink": "/docs/dev-docs/controllers",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/controllers.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "devDocsSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/welcome"
+              }
+            },
+            {
+              "unversionedId": "dev-docs/dev-docs-intro",
+              "id": "dev-docs/dev-docs-intro",
+              "title": "Dev Docs homepage",
+              "description": "",
               "source": "@site/docs/dev-docs/intro.md",
               "sourceDirName": "dev-docs",
-              "slug": "/dev-docs/intro",
-              "permalink": "/docs/dev-docs/intro",
+              "slug": "/dev-docs/dev-docs-intro",
+              "permalink": "/docs/dev-docs/dev-docs-intro",
               "draft": false,
               "editUrl": "https://github.com/pwizla/documentation/docs/dev-docs/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {}
-            },
-            {
-              "unversionedId": "hello",
-              "id": "hello",
-              "title": "Welcome to the Strapi v4 documentation!",
-              "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
-              "source": "@site/docs/hello.md",
-              "sourceDirName": ".",
-              "slug": "/hello",
-              "permalink": "/docs/hello",
-              "draft": false,
-              "editUrl": "https://github.com/pwizla/documentation/docs/hello.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "Hi!",
-                "id": "hello",
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar"
+                "id": "dev-docs-intro"
+              }
             },
             {
               "unversionedId": "user-docs/intro",
@@ -69,14 +70,66 @@
               "tags": [],
               "version": "current",
               "frontMatter": {}
+            },
+            {
+              "unversionedId": "welcome",
+              "id": "welcome",
+              "title": "Welcome to the Strapi v4 documentation!",
+              "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
+              "source": "@site/docs/hello.md",
+              "sourceDirName": ".",
+              "slug": "/welcome",
+              "permalink": "/docs/welcome",
+              "draft": false,
+              "editUrl": "https://github.com/pwizla/documentation/docs/hello.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Welcome!",
+                "id": "welcome",
+                "displayed_sidebar": "devDocsSidebar",
+                "sidebar_position": 1
+              },
+              "sidebar": "devDocsSidebar",
+              "next": {
+                "title": "Controllers",
+                "permalink": "/docs/dev-docs/controllers"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "tutorialSidebar": [
+            "devDocsSidebar": [
               {
                 "type": "doc",
-                "id": "hello"
+                "id": "welcome"
+              },
+              {
+                "type": "category",
+                "label": "🔧 Development",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Back-end customization",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "dev-docs/controllers"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "userDocsSidebar": [
+              {
+                "type": "doc",
+                "id": "welcome"
               }
             ]
           }

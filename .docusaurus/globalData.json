@@ -8,28 +8,39 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "hello",
+          "mainDocId": "welcome",
           "docs": [
             {
-              "id": "dev-docs/intro",
-              "path": "/docs/dev-docs/intro"
+              "id": "dev-docs/controllers",
+              "path": "/docs/dev-docs/controllers",
+              "sidebar": "devDocsSidebar"
             },
             {
-              "id": "hello",
-              "path": "/docs/hello",
-              "sidebar": "tutorialSidebar"
+              "id": "dev-docs/dev-docs-intro",
+              "path": "/docs/dev-docs/dev-docs-intro"
             },
             {
               "id": "user-docs/intro",
               "path": "/docs/user-docs/intro"
+            },
+            {
+              "id": "welcome",
+              "path": "/docs/welcome",
+              "sidebar": "devDocsSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "devDocsSidebar": {
               "link": {
-                "path": "/docs/hello",
-                "label": "hello"
+                "path": "/docs/welcome",
+                "label": "welcome"
+              }
+            },
+            "userDocsSidebar": {
+              "link": {
+                "path": "/docs/welcome",
+                "label": "welcome"
               }
             }
           }

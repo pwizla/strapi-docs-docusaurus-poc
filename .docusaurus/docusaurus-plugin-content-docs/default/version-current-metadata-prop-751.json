@@ -8,31 +8,67 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "devDocsSidebar": [
       {
         "type": "link",
-        "label": "Hi!",
-        "href": "/docs/hello",
-        "docId": "hello"
+        "label": "Welcome!",
+        "href": "/docs/welcome",
+        "docId": "welcome"
+      },
+      {
+        "type": "category",
+        "label": "🔧 Development",
+        "items": [
+          {
+            "type": "category",
+            "label": "Back-end customization",
+            "items": [
+              {
+                "type": "link",
+                "label": "Controllers",
+                "href": "/docs/dev-docs/controllers",
+                "docId": "dev-docs/controllers"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ],
+    "userDocsSidebar": [
+      {
+        "type": "link",
+        "label": "Welcome!",
+        "href": "/docs/welcome",
+        "docId": "welcome"
       }
     ]
   },
   "docs": {
-    "dev-docs/intro": {
-      "id": "dev-docs/intro",
-      "title": "intro",
-      "description": "Dev Docs homepage"
+    "dev-docs/controllers": {
+      "id": "dev-docs/controllers",
+      "title": "Controllers",
+      "description": "Controllers are JavaScript files that contain a set of methods, called actions, reached by the client according to the requested route. Whenever a client requests the route, the action performs the business logic code and sends back the response. Controllers represent the C in the model-view-controller (MVC) pattern.",
+      "sidebar": "devDocsSidebar"
     },
-    "hello": {
-      "id": "hello",
-      "title": "Welcome to the Strapi v4 documentation!",
-      "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
-      "sidebar": "tutorialSidebar"
+    "dev-docs/dev-docs-intro": {
+      "id": "dev-docs/dev-docs-intro",
+      "title": "Dev Docs homepage",
+      "description": ""
     },
     "user-docs/intro": {
       "id": "user-docs/intro",
       "title": "intro",
       "description": "User Guide homepage"
+    },
+    "welcome": {
+      "id": "welcome",
+      "title": "Welcome to the Strapi v4 documentation!",
+      "description": "This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.",
+      "sidebar": "devDocsSidebar"
     }
   }
 }
