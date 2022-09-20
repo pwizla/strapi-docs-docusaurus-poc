@@ -18,7 +18,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
   devDocsSidebar: [
-    'welcome',
+    'hello',
     {
       type: 'category',
       label: '🔧 Development',
@@ -34,7 +34,7 @@ const sidebars = {
     },
   ],
   userDocsSidebar: [
-    'welcome',
+    'hello',
   ],
 };
 
