@@ -397,7 +397,7 @@ Components are a combination of several fields. Components allow to create reusa
 
 When configuring a component through the Content-type Builder, it is possible to either:
 
-- create a new component by clicking on *Create a new component* (see [Creating a new component](/user-docs/latest/content-types-builder/creating-new-content-type.md#creating-a-new-component)),
+- create a new component by clicking on *Create a new component* (see [Creating a new component](/docs/user-docs/content-types-builder/creating-new-content-type#creating-a-new-component)),
 - or use an existing one by clicking on *Use an existing component*.
 
 <Tabs>

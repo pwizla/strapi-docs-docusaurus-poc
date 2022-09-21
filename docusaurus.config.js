@@ -122,7 +122,7 @@ const config = {
               },
               {
                 label: 'Dev Docs',
-                to: '/docs/dev-docs/intro',
+                to: '/docs/hello',
               },
             ],
           },
