@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Welcome!'
-# displayed_sidebar: devDocsSidebar
+displayed_sidebar: devDocsSidebar
 sidebar_position: 1
 ---
 
