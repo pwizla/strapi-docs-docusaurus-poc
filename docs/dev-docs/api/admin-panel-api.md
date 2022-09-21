@@ -181,7 +181,7 @@ The Admin Panel API allows a plugin to take advantage of several small APIs to p
 | Inject a Component in an injection zone  | [Injection Zones API](#injection-zones-api) | [`injectComponent()`](#injection-zones-api)           | [`bootstrap()`](#register)  |
 | Register a hook                          | [Hooks API](#hooks-api)                 | [`registerHook()`](#hooks-api)                    | [`bootstrap()`](#bootstrap)   |
 
-::: strapi Replacing the WYSIWYG
+:::strapi Replacing the WYSIWYG
 The WYSIWYG editor can be replaced by taking advantage of the [register lifecycle](#register) (see [new WYSIWYG field in the admin panel](#) guide).
 :::
 

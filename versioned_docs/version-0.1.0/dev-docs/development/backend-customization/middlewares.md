@@ -7,7 +7,7 @@ import TabItem from '@theme/TabItem';
 
 # Middlewares customization
 
-::: strapi Different types of middlewares
+:::strapi Different types of middlewares
 
 In Strapi, 2 middleware concepts coexist:
 

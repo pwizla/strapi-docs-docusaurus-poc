@@ -39,6 +39,11 @@ const config = {
           editUrl:
             'https://github.com/pwizla/documentation',
           lastVersion: '0.1.0',
+          admonitions: {
+            tag: ':::',
+            keywords: ['strapi'],
+            extendDefaults: true,
+          },
         },
         blog: {
           showReadingTime: true,
