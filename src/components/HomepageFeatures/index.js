@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Admin Panel User',
+    title: 'Content Manager',
     Svg: require('@site/static/img/persona1.svg').default,
     description: (
       <>
