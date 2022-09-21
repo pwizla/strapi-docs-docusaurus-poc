@@ -27,7 +27,8 @@ const sidebars = {
           type: 'category',
           label: 'Back-end customization',
           items: [
-            'dev-docs/controllers'
+            'dev-docs/controllers',
+            'dev-docs/middlewares',
           ]
         }
       ]
