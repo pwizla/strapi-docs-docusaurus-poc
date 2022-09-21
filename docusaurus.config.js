@@ -88,15 +88,21 @@ const config = {
             type: 'doc',
             docId: 'hello',
             position: 'left',
-            label: 'Documentation',
+            label: 'Developer Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           // {
           //   type: 'docsVersionDropdown' // temporarily disabled, enable again when adding versioning, see https://tutorial.docusaurus.io/docs/tutorial-extras/manage-docs-versions
           // },
           // {
           //   type: 'localeDropdown' // disabled as I couldn't make i18n work: navbar shows up but files seem 404s 🤷 
           // }
+          {
+            type: 'doc',
+            docId: 'user-docs/intro',
+            position: 'left',
+            label: 'User Guide'
+          },
           {
             href: 'https://github.com/strapi/documentation',
             label: 'GitHub',
