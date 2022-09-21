@@ -4,7 +4,7 @@ displayed_sidebar: devDocsSidebar
 sidebar_position: 1
 ---
 
-# Welcome to the Strapi v4 documentation!
+# Welcome to the Strapi Developer Docs!
 
 This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.
 

@@ -1,4 +1,9 @@
-# Welcome to the Strapi user guide!
+---
+displayed_sidebar: userDocsSidebar
+sidebar_label: Welcome!
+---
+
+# Welcome to the Strapi User Guide!
 
 This user guide contains the functional documentation related to all features available in the admin panel of your Strapi application.
 
@@ -20,7 +25,7 @@ With all this in mind, you should be ready to start your Strapi experience!
 
 The admin panel is the back office of your Strapi application. From the admin panel, you will be able to manage content-types, and write their actual content. It is also from the admin panel that you will manage users, both administrators and end users of your Strapi application.
 
-::: caution
+:::caution
 In order to access the admin panel, your Strapi application must be launched, and you must be aware of the URL to its admin panel (e.g. `api.example.com/admin`).
 :::
 

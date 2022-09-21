@@ -4,7 +4,7 @@ id: admin-panel-api
 
 # Admin Panel API for plugins
 
-A Strapi [plugin](#) can interact with both the [back end](#) or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's [admin panel](#).
+A Strapi [plugin](#) can interact with both the [back end](#) or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's [admin panel](/docs/user-docs/intro).
 
 The admin panel is a [React](https://reactjs.org/) application that can embed other React applications. These other React applications are the admin parts of each Strapi plugin.
 
@@ -384,7 +384,7 @@ Injection zones are defined in the [register()](#register) lifecycle but compone
 
 #### Using predefined injection zones
 
-Strapi admin panel comes with predefined injection zones so components can be added to the UI of the [Content Manager](#):
+Strapi admin panel comes with predefined injection zones so components can be added to the UI of the [Content Manager](/docs/user-docs/intro#):
 
 <!-- TODO: maybe add screenshots once the design system is ready? -->
 
@@ -609,7 +609,7 @@ export default {
 
 #### Predefined hook
 
-Strapi includes a predefined `Admin/CM/pages/ListView/inject-column-in-table` hook that can be used to add or mutate a column of the List View of the [Content Manager](#).
+Strapi includes a predefined `Admin/CM/pages/ListView/inject-column-in-table` hook that can be used to add or mutate a column of the List View of the [Content Manager](/docs/user-docs/intro).
 
 <details>
 <summary>Example: 'Admin/CM/pages/ListView/inject-column-in-table' hook, as used by the Internationalization plugin to add the 'Content available in' column</summary>
