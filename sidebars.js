@@ -33,6 +33,18 @@ const sidebars = {
         }
       ]
     },
+    {
+      type: 'category',
+      label: '💻 APIs',
+      items: [
+        {
+          type: 'link',
+          label: 'REST API',
+          href: '/openapi'
+        },
+        // 'dev-docs/api/admin-panel-api'
+      ]
+    }
   ],
   userDocsSidebar: [
     'hello',
