@@ -4,7 +4,7 @@ id: admin-panel-api
 
 # Admin Panel API for plugins
 
-A Strapi [plugin](/developer-docs/latest/plugins/plugins-intro.md) can interact with both the [back end](/developer-docs/latest/developer-resources/plugin-api-reference/server.md) or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's [admin panel](/developer-docs/latest/development/admin-customization.md).
+A Strapi [plugin](#) can interact with both the [back end](#) or the front end of the Strapi app. The Admin Panel API is about the front end part, i.e. it allows a plugin to customize Strapi's [admin panel](#).
 
 The admin panel is a [React](https://reactjs.org/) application that can embed other React applications. These other React applications are the admin parts of each Strapi plugin.
 
@@ -182,7 +182,7 @@ The Admin Panel API allows a plugin to take advantage of several small APIs to p
 | Register a hook                          | [Hooks API](#hooks-api)                 | [`registerHook()`](#hooks-api)                    | [`bootstrap()`](#bootstrap)   |
 
 ::: strapi Replacing the WYSIWYG
-The WYSIWYG editor can be replaced by taking advantage of the [register lifecycle](#register) (see [new WYSIWYG field in the admin panel](/developer-docs/latest/guides/registering-a-field-in-admin.md) guide).
+The WYSIWYG editor can be replaced by taking advantage of the [register lifecycle](#register) (see [new WYSIWYG field in the admin panel](#) guide).
 :::
 
 :::tip
@@ -384,7 +384,7 @@ Injection zones are defined in the [register()](#register) lifecycle but compone
 
 #### Using predefined injection zones
 
-Strapi admin panel comes with predefined injection zones so components can be added to the UI of the [Content Manager](/user-docs/latest/content-manager/introduction-to-content-manager.md):
+Strapi admin panel comes with predefined injection zones so components can be added to the UI of the [Content Manager](#):
 
 <!-- TODO: maybe add screenshots once the design system is ready? -->
 
@@ -609,7 +609,7 @@ export default {
 
 #### Predefined hook
 
-Strapi includes a predefined `Admin/CM/pages/ListView/inject-column-in-table` hook that can be used to add or mutate a column of the List View of the [Content Manager](/user-docs/latest/content-manager/introduction-to-content-manager.md).
+Strapi includes a predefined `Admin/CM/pages/ListView/inject-column-in-table` hook that can be used to add or mutate a column of the List View of the [Content Manager](#).
 
 <details>
 <summary>Example: 'Admin/CM/pages/ListView/inject-column-in-table' hook, as used by the Internationalization plugin to add the 'Content available in' column</summary>
