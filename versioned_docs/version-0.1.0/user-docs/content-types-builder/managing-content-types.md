@@ -1,6 +1,6 @@
 # Managing content-types
 
-::: callout The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.
+:::note The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.
 <br/>
 :::
 
