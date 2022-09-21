@@ -42,7 +42,7 @@ const sidebars = {
           label: 'REST API',
           href: '/openapi'
         },
-        // 'dev-docs/api/admin-panel-api'
+        'dev-docs/api/admin-panel-api'
       ]
     }
   ],
