@@ -7,8 +7,8 @@ import TabItem from '@theme/TabItem';
 
 # Configuring fields for content-types
 
-:::callout The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.
-<br/>
+:::note Development-only
+The Content-type Builder is only accessible to create and update content-types when your Strapi application is in a development environment, else it will be in a read-only mode in other environments.
 :::
 
 Content-types are composed of one or several fields. Each field is designed to contain specific kind of data, filled up in the Content Manager (see [Writing content](#)).

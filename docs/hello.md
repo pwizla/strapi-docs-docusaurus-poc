@@ -12,9 +12,9 @@ You're reading the bleeding edge version of our documentation. Some features mig
 
 This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.
 
-<!-- ::: strapi Can't wait to start using Strapi?
-You can directly head to the [Quick Start](#)! <br> If demos are more your thing, we have a [video demo](https://youtu.be/zd0_S_FPzKg), or you can request a [live demo](https://strapi.io/demo)!
-::: -->
+:::strapi Can't wait to start using Strapi?
+You can directly head to the [Quick Start](#)! <br/> If demos are more your thing, we have a [video demo](https://youtu.be/zd0_S_FPzKg), or you can request a [live demo](https://strapi.io/demo)!
+:::
 
 The original purpose of the project was to help Boot**strap** your **API**: that's how Strapi was created. Now, Strapi is an open-source headless CMS that gives developers the freedom to choose their favorite tools and frameworks and allows editors to manage and distribute their content using their application's admin panel. Based on a plugin system, Strapi is a flexible CMS whose admin panel and API are extensible - and which every part is customizable to match any use case. Strapi also has a built-in user system to manage in detail what the administrators and end users have access to.
 
@@ -36,7 +36,7 @@ Strapi is a community-oriented project with an emphasis on transparency. The Str
 
 Community members also take great part in providing the whole community a plethora of resources about Strapi. You can find [tutorials](https://strapi.io/tutorials/) on the Strapi website, where you can also create your own. Also, as an open-source project, the technical documentation of Strapi is open to contributions (see [Open-source & Contribution](#open-source-contribution)).
 
-::: strapi Want to join the community?
+:::strapi Want to join the community?
 You can join [GitHub](https://github.com/strapi/strapi), the [Forum](https://forum.strapi.io/), and the [Discord](https://discord.strapi.io) to share your ideas and opinions with other community members and members of the Strapi team. If you're looking for news and updates about Strapi, [Twitter](https://twitter.com/strapijs) and the [blog](https://strapi.io/blog) are pretty good places to start!
 :::
 
