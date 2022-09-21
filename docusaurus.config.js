@@ -38,6 +38,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/pwizla/documentation',
+          lastVersion: '0.1.0',
         },
         blog: {
           showReadingTime: true,
